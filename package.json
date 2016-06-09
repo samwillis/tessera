@@ -11,11 +11,10 @@
     "url": "https://github.com/mojodna/tessera.git"
   },
   "scripts": {
-    "postinstall": "bower cache clean && bower install"
+    "prepublish": "npm install bower && bower install",
   },
   "dependencies": {
     "abaculus": "git://github.com/samwillis/abaculus.git#master",
-    "bower": "^1.7.9",
     "cachecache": "^1.0.1",
     "clone": "^1.0.2",
     "cors": "^2.5.2",
