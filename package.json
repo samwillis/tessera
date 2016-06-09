@@ -11,7 +11,8 @@
     "url": "https://github.com/mojodna/tessera.git"
   },
   "scripts": {
-    "prepublish": "npm install bower && bower install"
+    "prepublish": "npm install bower && bower install",
+    "postinstall": "npm install bower && bower install"
   },
   "dependencies": {
     "abaculus": "git://github.com/samwillis/abaculus.git#master",
