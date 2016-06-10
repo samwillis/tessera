@@ -14,7 +14,7 @@
     "postinstall": "bower cache clean && bower install"
   },
   "dependencies": {
-    "abaculus": "git://github.com/samwillis/abaculus.git#master",
+    "abaculus": "git://github.com/samwillis/abaculus.git#v1.3.0-fix",
     "bower": "^1.7.9",
     "cachecache": "^1.0.1",
     "clone": "^1.0.2",
