@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@mapbox/abaculus": "^2.1.0",
-    "bower": "^1.7.9",
+    "bower": "^1.8.0",
     "cachecache": "^1.0.1",
     "clone": "^1.0.2",
     "cors": "^2.5.2",
